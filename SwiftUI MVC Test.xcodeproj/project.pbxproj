@@ -11,6 +11,11 @@
 		820322BD29A6C0FD00B02726 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820322BC29A6C0FD00B02726 /* ContentView.swift */; };
 		820322BF29A6C0FD00B02726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 820322BE29A6C0FD00B02726 /* Assets.xcassets */; };
 		820322C329A6C0FD00B02726 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 820322C229A6C0FD00B02726 /* Preview Assets.xcassets */; };
+		820322CC29A6C48400B02726 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820322CA29A6C48400B02726 /* AppModel.swift */; };
+		820322CD29A6C48400B02726 /* SessionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820322CB29A6C48400B02726 /* SessionModel.swift */; };
+		820322CF29A6C53000B02726 /* BouncerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820322CE29A6C53000B02726 /* BouncerView.swift */; };
+		820322D229A7B88800B02726 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820322D029A7B88700B02726 /* HomeViewController.swift */; };
+		820322D329A7B88800B02726 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820322D129A7B88800B02726 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		820322BE29A6C0FD00B02726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		820322C029A6C0FD00B02726 /* SwiftUI_MVC_Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUI_MVC_Test.entitlements; sourceTree = "<group>"; };
 		820322C229A6C0FD00B02726 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		820322CA29A6C48400B02726 /* AppModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		820322CB29A6C48400B02726 /* SessionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionModel.swift; sourceTree = "<group>"; };
+		820322CE29A6C53000B02726 /* BouncerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BouncerView.swift; sourceTree = "<group>"; };
+		820322D029A7B88700B02726 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		820322D129A7B88800B02726 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				820322BA29A6C0FD00B02726 /* SwiftUI_MVC_TestApp.swift */,
+				820322C929A6C48400B02726 /* DataModels */,
 				820322BC29A6C0FD00B02726 /* ContentView.swift */,
+				820322CE29A6C53000B02726 /* BouncerView.swift */,
+				820322D129A7B88800B02726 /* DetailView.swift */,
+				820322D029A7B88700B02726 /* HomeViewController.swift */,
 				820322BE29A6C0FD00B02726 /* Assets.xcassets */,
 				820322C029A6C0FD00B02726 /* SwiftUI_MVC_Test.entitlements */,
 				820322C129A6C0FD00B02726 /* Preview Content */,
@@ -67,6 +81,15 @@
 				820322C229A6C0FD00B02726 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		820322C929A6C48400B02726 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				820322CA29A6C48400B02726 /* AppModel.swift */,
+				820322CB29A6C48400B02726 /* SessionModel.swift */,
+			);
+			path = DataModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +163,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				820322BD29A6C0FD00B02726 /* ContentView.swift in Sources */,
+				820322CF29A6C53000B02726 /* BouncerView.swift in Sources */,
+				820322CC29A6C48400B02726 /* AppModel.swift in Sources */,
+				820322CD29A6C48400B02726 /* SessionModel.swift in Sources */,
 				820322BB29A6C0FD00B02726 /* SwiftUI_MVC_TestApp.swift in Sources */,
+				820322D229A7B88800B02726 /* HomeViewController.swift in Sources */,
+				820322D329A7B88800B02726 /* DetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

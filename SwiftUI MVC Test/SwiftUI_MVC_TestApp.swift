@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct SwiftUI_MVC_TestApp: App {
+    @StateObject var appModel = AppModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BouncerView(appModel: appModel)
         }
     }
 }
